@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F83B10F1BCC846D003007F4 /* Main_backup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F83B10D1BCC846D003007F4 /* Main_backup.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4F83B1111BCCA690003007F4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F83B1101BCCA690003007F4 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		4FE1E6E91BC99CE500B61B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E6E81BC99CE500B61B12 /* AppDelegate.swift */; };
 		4FE1E6EB1BC99CE500B61B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E6EA1BC99CE500B61B12 /* ViewController.swift */; };
 		4FE1E6EE1BC99CE500B61B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE1E6EC1BC99CE500B61B12 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F83B10E1BCC846D003007F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_backup.storyboard; sourceTree = "<group>"; };
+		4F83B1101BCCA690003007F4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4FE1E6E51BC99CE500B61B12 /* Week4_Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4_Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE1E6E81BC99CE500B61B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FE1E6EA1BC99CE500B61B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +114,9 @@
 				4FE1E6E81BC99CE500B61B12 /* AppDelegate.swift */,
 				4FE1E6EA1BC99CE500B61B12 /* ViewController.swift */,
 				4FE1E6EC1BC99CE500B61B12 /* Main.storyboard */,
+				4F83B10D1BCC846D003007F4 /* Main_backup.storyboard */,
 				4FE1E71E1BC9A4D300B61B12 /* TrendingViewController.swift */,
+				4F83B1101BCCA690003007F4 /* Common.swift */,
 				4FE1E71C1BC9A4B400B61B12 /* AccountViewController.swift */,
 				4FE1E71A1BC9A35600B61B12 /* ComposeViewController.swift */,
 				4FE1E7181BC9A2A200B61B12 /* SearchViewController.swift */,
@@ -246,6 +252,7 @@
 				4FE1E6F31BC99CE500B61B12 /* LaunchScreen.storyboard in Resources */,
 				4FE1E6F01BC99CE500B61B12 /* Assets.xcassets in Resources */,
 				4FE1E6EE1BC99CE500B61B12 /* Main.storyboard in Resources */,
+				4F83B10F1BCC846D003007F4 /* Main_backup.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F83B1111BCCA690003007F4 /* Common.swift in Sources */,
 				4FE1E71F1BC9A4D300B61B12 /* TrendingViewController.swift in Sources */,
 				4FE1E71B1BC9A35600B61B12 /* ComposeViewController.swift in Sources */,
 				4FE1E6EB1BC99CE500B61B12 /* ViewController.swift in Sources */,
@@ -312,6 +320,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4F83B10D1BCC846D003007F4 /* Main_backup.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F83B10E1BCC846D003007F4 /* Base */,
+			);
+			name = Main_backup.storyboard;
+			sourceTree = "<group>";
+		};
 		4FE1E6EC1BC99CE500B61B12 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -501,6 +517,7 @@
 				4FE1E70F1BC99CE500B61B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FE1E7101BC99CE500B61B12 /* Build configuration list for PBXNativeTarget "Week4_TumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +526,7 @@
 				4FE1E7121BC99CE500B61B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FE1E7131BC99CE500B61B12 /* Build configuration list for PBXNativeTarget "Week4_TumblrUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +535,7 @@
 				4FE1E7151BC99CE500B61B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
