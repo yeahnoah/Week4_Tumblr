@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var menuView: UIView!
+    @IBOutlet weak var alertView: UIImageView!
     
     var HomeViewController: UIViewController!
     var SearchViewController: UIViewController!
@@ -24,6 +25,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UIView.animateWithDuration(0.7, delay: 0.4, options: [.Autoreverse, .Repeat, .CurveEaseInOut], animations: { () -> Void in
+            self.alertView.transform = CGAffineTransformMakeTranslation(0, +6)
+            }, completion: nil)
+        
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         HomeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController")
@@ -53,6 +59,14 @@ class ViewController: UIViewController {
             
             contentView.frame.size = CGSize(width: contentView.frame.size.width, height: contentView.frame.size.height + menuView.frame.size.height)
             
+        }
+        else if sender.tag == 1 {
+            UIView.animateWithDuration(0.35, animations: { () -> Void in
+                self.alertView.transform = CGAffineTransformMakeTranslation(0, -30)
+            })
+            UIView.animateWithDuration(0.32, animations: { () -> Void in
+                self.alertView.alpha=0
+            })
         }
         else {
             
