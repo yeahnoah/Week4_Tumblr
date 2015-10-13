@@ -7,7 +7,7 @@
 &#9989;Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
 <br>&#9989;Compose button should modally present the compose screen.
 <br>&#9989;Optional: Compose screen is faded in while the buttons animate in.
-<br>&#10006;Optional: Login button should show animate the login form over the view controller.
+<br>&#10006;&nbsp;Optional: Login button should show animate the login form over the view controller.
 <br>&#9989;Optional: Discover bubble should bob up and down unless the SearchViewController is tapped.
 <br><br>
 <b>Notes:</b>
