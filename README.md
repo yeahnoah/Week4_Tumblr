@@ -12,6 +12,7 @@
 <br><br>
 <b>Notes:</b>
 <br>Felt mostly comfortable with this overall—will definitely take practice. Had some issues with the Animate-out for the compose screen. "Hacked" it to work by performing a move (with delay) after the screen is dismissed
+<br><br>
 <b>Gif:</b>
 <br>
 ![alt tag](https://github.com/yeahnoah/Week4_Tumblr/blob/master/wk4_tumblr.gif?raw=true)
