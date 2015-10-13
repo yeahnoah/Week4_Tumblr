@@ -14,6 +14,11 @@
 		4FE1E6F31BC99CE500B61B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE1E6F11BC99CE500B61B12 /* LaunchScreen.storyboard */; };
 		4FE1E6FE1BC99CE500B61B12 /* Week4_TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E6FD1BC99CE500B61B12 /* Week4_TumblrTests.swift */; };
 		4FE1E7091BC99CE500B61B12 /* Week4_TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E7081BC99CE500B61B12 /* Week4_TumblrUITests.swift */; };
+		4FE1E7171BC9A1BC00B61B12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E7161BC9A1BC00B61B12 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4FE1E7191BC9A2A200B61B12 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E7181BC9A2A200B61B12 /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4FE1E71B1BC9A35600B61B12 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E71A1BC9A35600B61B12 /* ComposeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4FE1E71D1BC9A4B400B61B12 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E71C1BC9A4B400B61B12 /* AccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4FE1E71F1BC9A4D300B61B12 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE1E71E1BC9A4D300B61B12 /* TrendingViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		4FE1E7041BC99CE500B61B12 /* Week4_TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week4_TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE1E7081BC99CE500B61B12 /* Week4_TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_TumblrUITests.swift; sourceTree = "<group>"; };
 		4FE1E70A1BC99CE500B61B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE1E7161BC9A1BC00B61B12 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4FE1E7181BC9A2A200B61B12 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4FE1E71A1BC9A35600B61B12 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		4FE1E71C1BC9A4B400B61B12 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		4FE1E71E1BC9A4D300B61B12 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				4FE1E6E81BC99CE500B61B12 /* AppDelegate.swift */,
 				4FE1E6EA1BC99CE500B61B12 /* ViewController.swift */,
 				4FE1E6EC1BC99CE500B61B12 /* Main.storyboard */,
+				4FE1E71E1BC9A4D300B61B12 /* TrendingViewController.swift */,
+				4FE1E71C1BC9A4B400B61B12 /* AccountViewController.swift */,
+				4FE1E71A1BC9A35600B61B12 /* ComposeViewController.swift */,
+				4FE1E7181BC9A2A200B61B12 /* SearchViewController.swift */,
+				4FE1E7161BC9A1BC00B61B12 /* HomeViewController.swift */,
 				4FE1E6EF1BC99CE500B61B12 /* Assets.xcassets */,
 				4FE1E6F11BC99CE500B61B12 /* LaunchScreen.storyboard */,
 				4FE1E6F41BC99CE500B61B12 /* Info.plist */,
@@ -255,8 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE1E71F1BC9A4D300B61B12 /* TrendingViewController.swift in Sources */,
+				4FE1E71B1BC9A35600B61B12 /* ComposeViewController.swift in Sources */,
 				4FE1E6EB1BC99CE500B61B12 /* ViewController.swift in Sources */,
+				4FE1E71D1BC9A4B400B61B12 /* AccountViewController.swift in Sources */,
 				4FE1E6E91BC99CE500B61B12 /* AppDelegate.swift in Sources */,
+				4FE1E7191BC9A2A200B61B12 /* SearchViewController.swift in Sources */,
+				4FE1E7171BC9A1BC00B61B12 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
