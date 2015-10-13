@@ -1,6 +1,6 @@
 # Week4_Tumblr
 
-<b>Time spent: 9.5 hours in Total</b>
+<b>Time spent: 9 hours in Total</b>
 
 <b>Completed User Stories:</b>
 <br>
