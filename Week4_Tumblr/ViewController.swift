@@ -34,11 +34,11 @@ class ViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         HomeViewController = storyboard.instantiateViewControllerWithIdentifier("HomeViewController")
         SearchViewController = storyboard.instantiateViewControllerWithIdentifier("SearchViewController")
+        ComposeViewController = storyboard.instantiateViewControllerWithIdentifier("ComposeViewController")
         AccountViewController = storyboard.instantiateViewControllerWithIdentifier("AccountViewController")
         TrendingViewController = storyboard.instantiateViewControllerWithIdentifier("TrendingViewController")
-        ComposeViewController = storyboard.instantiateViewControllerWithIdentifier("ComposeViewController")
         
-        viewControllers = [HomeViewController, SearchViewController, ComposeViewController, AccountViewController, TrendingViewController]
+        viewControllers = [HomeViewController, SearchViewController, AccountViewController, TrendingViewController,ComposeViewController]
         
         buttons[selectedIndex].selected = true
         didPressTab(buttons[selectedIndex])
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         buttons[previousIndex].selected = false
 
         
-        if sender.tag == 2 {
+        if sender.tag == 4 {
             
             contentView.frame.size = CGSize(width: contentView.frame.size.width, height: contentView.frame.size.height + menuView.frame.size.height)
             
